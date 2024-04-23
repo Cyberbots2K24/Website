@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberbots Careers</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for colorful styling */
+    body {
+      background-color: #f8f9fa; /* Light gray background */
+      color: #343a40; /* Dark Gray Text color */
+    }
+    .form-control {
+      border-color: #ced4da; /* Default Border Color for form controls */
+    }
+    .form-control:focus {
+      border-color: #80bdff; /* Blue border color on focus */
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Blue Shadow on focus */
+    }
+    .btn-primary {
+      background-color: #007bff; /* Blue Background for Primary Buttons */
+      border-color: #007bff; /* Blue Border Color for Primary buttons */
+    }
+    .btn-primary:hover {
+      background-color: #0056b3; /* Darker Blue Background On Hover */
+      border-color: #0056b3; /* Darker Blue Border Color On Hover */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Cyberbots Careers</h1> <!-- Added Heading -->
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Apply for a Position</h5>
+      <form>
+        <div class="form-group">
+          <label for="position">Select Position</label>
+          <select class="form-control" id="position">
+            <option value="research_analyst">Research Analyst</option>
+            <option value="office_admin">Office Admin</option>
+            <option value="business_development_manager">Business Development Manager</option>
+            <option value="office_helper">Office Helper</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile Number</label>
+          <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number">
+        </div>
+        <div class="form-group">
+          <label for="photo">Upload Photo</label>
+          <input type="file" class="form-control-file" id="photo">
+        </div>
+        <div class="form-group">
+          <label for="relocate">Willing to Relocate</label>
+          <select class="form-control" id="relocate">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="education">Education Details</label>
+          <textarea class="form-control" id="education" rows="3" placeholder="Enter your education details"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="resume">Upload Resume</label>
+          <input type="file" class="form-control-file" id="resume">
+        </div>
+        <button type="submit" class="btn btn-primary">Apply Now</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
