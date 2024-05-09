@@ -228,6 +228,8 @@
         });
     };
       
+
+
     if ($('[data-mask-src]').length > 0) {
         $('[data-mask-src]').each(function () {
           var mask = $(this).attr('data-mask-src');
@@ -239,6 +241,8 @@
           $(this).removeAttr('data-mask-src');
         });
     };
+
+
 
     /*----------- 07. Global Slider ----------*/
     $(".th-carousel").each(function () {
@@ -396,6 +400,9 @@
         });
     });
 
+
+
+
     
     /*----------- 08. Custom Animaiton For Slider ----------*/
     $('[data-ani-duration]').each(function () {
@@ -468,6 +475,8 @@
         }
     }
 
+
+
     function validateContact() {
         var valid = true;
         var formInput;
@@ -536,6 +545,10 @@
         "show"
     );
 
+
+
+
+
     /*---------- 11. Popup Sidemenu ----------*/
     function popupSideMenu($sideMenu, $sideMunuOpen, $sideMenuCls, $toggleCls) {
         // Sidebar Popup
@@ -587,6 +600,8 @@
     $(".popup-content").on("click", function () {
         $(".slick-slider").slick("refresh");
     });
+
+    
 
     
 
